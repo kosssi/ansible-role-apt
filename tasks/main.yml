@@ -5,3 +5,4 @@
 - include: repositories.yml
 - include: upgrade.yml
 - include: install.yml
+- include: remove.yml

@@ -17,3 +17,5 @@ apt_install:
 apt_repositories: false
 # apt_repositories:
 #   - ppa:ondrej/php5
+
+apt_remove: false
