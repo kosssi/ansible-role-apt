@@ -2,3 +2,7 @@
 
 apt_cache_valid_time: 3600
 apt_update: true
+
+apt_dependencies:
+  - python-apt
+  - aptitude
