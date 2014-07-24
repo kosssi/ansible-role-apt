@@ -13,3 +13,7 @@ apt_dependencies:
 apt_install:
   - python-apt
   - unattended-upgrades
+
+apt_repositories: false
+# apt_repositories:
+#   - ppa:ondrej/php5

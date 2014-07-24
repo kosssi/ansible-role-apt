@@ -1,0 +1,8 @@
+---
+
+- name: Install repositories.
+  apt_repository:
+    repo="{{ item }}"
+    update_cache=yes
+  with_items: apt_repositories
+  when: apt_repositories
