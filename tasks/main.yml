@@ -2,4 +2,5 @@
 
 - include: update.yml
 - include: dependencies.yml
+- include: upgrade.yml
 - include: install.yml
