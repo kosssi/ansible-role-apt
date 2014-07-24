@@ -6,3 +6,7 @@ apt_update: true
 apt_dependencies:
   - python-apt
   - aptitude
+
+apt_install:
+  - python-apt
+  - unattended-upgrades
