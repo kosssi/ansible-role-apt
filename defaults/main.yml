@@ -10,12 +10,20 @@ apt_dependencies:
   - python-apt
   - aptitude
 
-apt_install:
-  - python-apt
-  - unattended-upgrades
+apt_install: false
+# apt_install:
+#   - python-apt
+#   - unattended-upgrades
 
-apt_repositories: false
-# apt_repositories:
+apt_install_repositories: false
+# apt_install_repositories:
+#   - ppa:ondrej/php5
+
+apt_remove_repositories: false
+# apt_remove_repositories:
 #   - ppa:ondrej/php5
 
 apt_remove: false
+# apt_remove:
+#   - python-apt
+#   - unattended-upgrades

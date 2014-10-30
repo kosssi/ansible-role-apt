@@ -4,5 +4,13 @@
   apt_repository:
     repo="{{ item }}"
     update_cache=yes
-  with_items: apt_repositories
-  when: apt_repositories
+  with_items: apt_install_repositories
+  when: apt_install_repositories
+
+- name: Remove repositories.
+  apt_repository:
+    repo="{{ item }}"
+    state=absent
+    update_cache=yes
+  with_items: apt_remove_repositories
+  when: apt_remove_repositories
