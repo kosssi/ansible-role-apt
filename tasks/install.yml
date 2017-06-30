@@ -4,5 +4,5 @@
   apt:
     pkg="{{ item }}"
     state=present
-  with_items: apt_install
+  with_items: "{{ apt_install }}"
   when: apt_install
